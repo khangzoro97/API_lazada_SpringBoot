@@ -1,0 +1,22 @@
+17/08/2021 09:18:06.652 : INFO: {Thread.LoadConfig} : Load file config success
+17/08/2021 09:18:08.809 : INFO: {process.GetOrders} : request(code: 0,
+ data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101745416291666900386451"}), response: api.lazada.lazop.api.LazopResponse@3b55ee0a
+17/08/2021 09:18:19.074 : INFO: {process.GetOrders} : request(code: 0,
+ data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101211e16291667003574592"}), response: api.lazada.lazop.api.LazopResponse@677e6a8b
+17/08/2021 09:18:29.371 : INFO: {process.GetOrders} : request(code: 0,
+ data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101192016291667106517668"}), response: api.lazada.lazop.api.LazopResponse@3f810b9a
+17/08/2021 09:18:39.621 : INFO: {process.GetOrders} : request(code: 0,
+ data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101211e16291667209086088"}), response: api.lazada.lazop.api.LazopResponse@1e00c28c
+17/08/2021 09:18:49.871 : INFO: {process.GetOrders} : request(code: 0,
+ data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"21011db716291667311543521"}), response: api.lazada.lazop.api.LazopResponse@6b2cb42e
+17/08/2021 09:20:18.108 : INFO: {Thread.LoadConfig} : Load file config success
+17/08/2021 09:24:12.860 : INFO: {Thread.LoadConfig} : Load file config success
+17/08/2021 09:27:28.622 : INFO: {Thread.LoadConfig} : Load file config success
+17/08/2021 09:32:28.643 : INFO: {Thread.LoadConfig} : Load file config success
+17/08/2021 09:32:58.164 : INFO: {Thread.LoadConfig} : Load file config success
+17/08/2021 09:33:44.145 : INFO: {Thread.LoadConfig} : Load file config success
+17/08/2021 09:38:44.162 : INFO: {Thread.LoadConfig} : Load file config success
+17/08/2021 09:40:45.764 : INFO: {Thread.LoadConfig} : Load file config success
+17/08/2021 09:40:47.590 : ERRROR: {process.GetOrders} : request(data:{"type":"ISV","code":"IllegalAccessToken","message":"The specified access token is invalid or expired","request_id":"21010ec116291680488885006"}), response: api.lazada.lazop.api.LazopResponse@1fafc7c1
+17/08/2021 09:44:45.239 : INFO: {Thread.LoadConfig} : Load file config success
+17/08/2021 09:44:46.909 : ERRROR: {process.GetOrders} : request(data:{"type":"ISV","code":"IllegalAccessToken","message":"The specified access token is invalid or expired","request_id":"2101745416291682882208408"}), response: api.lazada.lazop.api.LazopResponse@648fa6a
