@@ -2,6 +2,7 @@ package api.lazada;
 
 import api.lazada.lazop.Thread.LoadConfig;
 import api.lazada.lazop.process.GetOrders;
+import api.lazada.lazop.process.GetToken;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -17,6 +18,8 @@ public class LazadaApplication {
 		config.start();
 		GetOrders list = new GetOrders();
 		list.start();
+		/*GetToken token = new GetToken();
+		token.start();*/
 
 		SpringApplication.run(LazadaApplication.class, args);
 	}

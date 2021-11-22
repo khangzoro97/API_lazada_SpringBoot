@@ -1,0 +1,4 @@
+09/11/2021 11:02:41.832 : INFO: {Thread.LoadConfig} : Load file config success
+09/11/2021 11:02:43.923 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101192016364305636248168"}), response: api.lazada.lazop.api.LazopResponse@40afb031
+09/11/2021 11:02:54.204 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"21010ec116364305739391489"}), response: api.lazada.lazop.api.LazopResponse@462942ec
+09/11/2021 11:03:04.528 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"21010ec116364305842552400"}), response: api.lazada.lazop.api.LazopResponse@6d50f92f

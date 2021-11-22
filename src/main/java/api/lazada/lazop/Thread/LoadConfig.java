@@ -32,7 +32,6 @@ import java.util.Properties;
                     Preference.ip_access = ip_access.split(",");
                 }*/
 
-
                 String appkey = properties.getProperty("appkey", "");
                 synchronized (Preference.appkey) {
                     Preference.appkey = appkey;
@@ -42,6 +41,28 @@ import java.util.Properties;
                 synchronized (Preference.url_bhnb) {
                     Preference.url_bhnb = url_bhnb;
                 }
+
+                String url_sim = properties.getProperty("url_sim", "");
+                synchronized (Preference.url_sim) {
+                    Preference.url_sim = url_sim;
+                }
+                String shop_code = properties.getProperty("shop_code", "");
+                synchronized (Preference.shop_code) {
+                    Preference.shop_code = shop_code;
+                }
+                String user = properties.getProperty("user", "");
+                synchronized (Preference.user) {
+                    Preference.user = user;
+                }
+                String pass = properties.getProperty("pass", "");
+                synchronized (Preference.pass) {
+                    Preference.pass = pass;
+                }
+                String api_key = properties.getProperty("api_key", "");
+                synchronized (Preference.api_key) {
+                    Preference.api_key = api_key;
+                }
+
 
                 String appSecret = properties.getProperty("appSecret", "");
                 synchronized (Preference.appSecret) {
@@ -79,7 +100,6 @@ import java.util.Properties;
                 while(true){
                     getPropValues();
                     sleep(300000);
-
                 }
             } catch (Exception ex3) {
                 ex3.printStackTrace();

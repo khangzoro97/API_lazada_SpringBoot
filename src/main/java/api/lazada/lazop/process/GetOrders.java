@@ -18,12 +18,10 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Random;
+import java.util.*;
 
 import static api.lazada.lazop.util.UrlConstants.API_GATEWAY_URL_VN;
+import static org.apache.coyote.http11.Constants.a;
 
 
 public class GetOrders extends Thread {
@@ -33,7 +31,7 @@ public class GetOrders extends Thread {
     }
     private Date yesterday() {
         final Calendar cal = Calendar.getInstance();
-        cal.add(Calendar.DATE, -1);
+        cal.add(Calendar.DATE, -100);
         return cal.getTime();
     }
     public void select() throws IOException, ApiException, JSONException {
@@ -56,6 +54,7 @@ public class GetOrders extends Thread {
 
         request.addApiParameter("created_after", cur_date+"T23:59:30+07:00");
         request.addApiParameter("status", "pending");
+        /*String accessToken= GetToken.freshToken();*/
         String accessToken= Preference.accessToken;
         LazopResponse response = client.execute(request, accessToken);
 
@@ -64,16 +63,23 @@ public class GetOrders extends Thread {
         Logger.error("lazop","{process.GetOrders} : "+"request(data:"+response.getBody()+"), response: "+response);
 //Nếu code=0, lấy danh sách order từ data , phân biệt Jsonarray với Jsonobject
         if(json.getInt("code")==0){
-            JSONArray orders = json.getJSONObject("data").getJSONArray("orders");
+            JSONArray orders = json.getJSONObject("data").getJSONArray("orders");       //(array)
 
             System.out.println(orders.toString());
-
+/////////////////////////////
             for (int i = 0; i < orders.length(); i++) {
-                JSONObject rec = orders.getJSONObject(i);   //lấy thông tin từng đơn hàng
+                String name = orders.getJSONObject(i).getJSONObject("address_billing").getString("first_name");
+                String phone = orders.getJSONObject(i).getJSONObject("address_billing").getString("phone");
+                String address1 = orders.getJSONObject(i).getJSONObject("address_billing").getString("address1");
+                String city = orders.getJSONObject(i).getJSONObject("address_billing").getString("city");
+                String country = orders.getJSONObject(i).getJSONObject("address_billing").getString("country");
+                String address= address1+","+city+","+country;
+
+                JSONObject rec = orders.getJSONObject(i);   //lấy thông tin từng đơn hàng  (object{})
                 String order_number = rec.getString("order_number");        //lấy order_number của đơn hàng
 
                 if( !Arrays.asList(arr_order).contains(order_number)){     //nếu order_number ko có trong chuỗi arr_order
-                    System.out.println(order_number);
+                    /*System.out.println(order_number);*/
 
                     // Lấy thông tin chi tiết đơn hàng bằng /order/items/get
                     LazopClient client2 = new LazopClient(url, appkey, appSecret);
@@ -81,34 +87,50 @@ public class GetOrders extends Thread {
                     request2.setApiName("/order/items/get");
                     request2.setHttpMethod("GET");
                     request2.addApiParameter("order_id", order_number);
-                    LazopResponse response2 = client.execute(request2, accessToken);
+                    LazopResponse response2 = client2.execute(request2, accessToken);
                     JSONObject detail = new JSONObject(response2.getBody());
 
-                    JSONArray arr = detail.getJSONArray("data");    // lấy được data của đơn hàng
+                    JSONArray arr = detail.getJSONArray("data");    // lấy được data của đơn hàng (array)
+                    JSONObject obj = arr.getJSONObject(0);  // ---lấy được data của đơn hàng (object)
+                    String sku = obj.getString("sku");     // lấy được sku sp order (string)
+                    /*System.out.println(obj);*/
                     if(arr.length()>=1){
-                        JSONObject obj = arr.getJSONObject(0);
-                        String sku = obj.getString("sku");     // lấy được sku sp order
-                        String[] arr_sku = sku.split("\\+");     //tách chuỗi bằng dấu +
+
+                        if(Objects.equals(sku,"c050_1M") || Objects.equals(sku, "c050_3M") || Objects.equals(sku, "c050_6M") || Objects.equals(sku, "c025_1M") || Objects.equals(sku, "c025_3M") || Objects.equals(sku, "c025_6M")){
+
+                        String email = obj.getString("digital_delivery_info");
+
+
+
+                        String order_item_id = obj.getString("order_item_id");
+                        int fee_ship = obj.getInt("shipping_service_cost");
+
+                        int count = arr.length();
+                        int total_price = obj.getInt("paid_price") * count;
+                             // Lấy được các trường mong muốn
+                        processBuySim(order_number,sku,name,phone,address,email,count,total_price,fee_ship,order_item_id);
+
+                        }
+                    else {
+                        String[] arr_sku = sku.split("\\+");     // tách chuỗi bằng dấu +
                         String product_code = arr_sku[0];
                         String id_product = arr_sku[1];
                         String price = arr_sku[2];
                         int price_1 = Integer.parseInt(price);
                         String email = obj.getString("digital_delivery_info");
+
+                        String order_item_id = obj.getString("order_item_id");
                         int count = arr.length();
                         int total_price = price_1 * count;
                         int total_charge = obj.getInt("paid_price") * count;
-// Lấy được các trường mong muốn
+                             // Lấy được các trường mong muốn
                         processCheckBy(order_number,product_code,id_product,email,count,total_price,total_charge);
-
+                       }
                     }
 
                 }
 
-             /*   LazopClient client3 = new LazopClient(url, appkey, appSecret);
-                LazopRequest request3 = new LazopRequest();
-                request3.setApiName("/order/sof/delivered");
-                request3.addApiParameter("order_item_ids",order_number);
-                LazopResponse response3 = client3.execute(request, accessToken);*/  //tự động chuyển trạng thái delivered
+
             }
 
         }
@@ -116,7 +138,7 @@ public class GetOrders extends Thread {
 
     }
 
-    private void processCheckBy(String order_number,String product_code, String id_product,  String email, int count, int total_price,int total_charge) throws IOException {
+    private void processCheckBy(String order_number, String product_code, String id_product, String email, int count, int total_price, int total_charge) throws IOException {
 // tạo request_id theo time_now
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date date = new Date();
@@ -136,7 +158,7 @@ public class GetOrders extends Thread {
         OkHttpClient client = new OkHttpClient().newBuilder()
                 .build();
         MediaType mediaType = MediaType.parse("application/xml");
-        RequestBody body = RequestBody.create(mediaType, "<mps>\n    <username>lazada</username>\n    <pass>"+password+"</pass>\n    <requestid>"+request_id+"</requestid>\n    <product_code>"+product_code+"</product_code>\n    <product_id>"+id_product+"</product_id>\n    <count>"+count+"</count>\n    <email>"+email+"</email>\n    <send_code_email>1</send_code_email>\n    <isdn>0903967333</isdn>\n    <cus_name>Lazada Test</cus_name>\n    <request_date>"+current+"</request_date>\n    <address>Lazada Test</address>\n    <total_price>"+total_price+"</total_price>\n    <total_charge>"+total_charge+"</total_charge>\n</mps>");
+        RequestBody body = RequestBody.create(mediaType, "<mps>\n    <username>lazada</username>\n    <pass>"+password+"</pass>\n    <requestid>"+request_id+"</requestid>\n    <product_code>"+product_code+"</product_code>\n    <product_id>"+id_product+"</product_id>\n    <count>"+count+"</count>\n    <email>khangnd@mobifoneplus.com.vn</email>\n    <send_code_email>1</send_code_email>\n    <isdn>0903967333</isdn>\n    <cus_name>Lazada Test</cus_name>\n    <request_date>"+current+"</request_date>\n    <address>Lazada Test</address>\n    <total_price>"+total_price+"</total_price>\n    <total_charge>"+total_charge+"</total_charge>\n</mps>");
         Request request = new Request.Builder()
                 .url(url_bhnb)
                 .method("POST", body)
@@ -153,6 +175,47 @@ public class GetOrders extends Thread {
             WriteOrder.writeOrder(order_number);
             System.out.println(Integer.parseInt(status));
             //chuyển pending....
+        }
+
+
+    }
+
+    private void processBuySim(String order_number, String sku, String name, String phone, String address, String email, int count, int total_price, int fee_ship, String order_item_id) throws IOException {
+        Random generator = new Random();
+        String request_id = "1" + generator.nextInt(999999);
+        String shop_code= Preference.shop_code;
+        String user= Preference.user;
+        String passLaz= Preference.pass;
+        String pass = request_id+shop_code+user+passLaz;
+        String password = getMD5(pass);
+
+        String url_sim= Preference.url_sim;
+        String api_key= Preference.api_key;
+        String data = "{\r\n    \"infor\":{\r\n        \"request_id\": \""+request_id+"\",\r\n        \"shop_code\":\""+shop_code+"\",\r\n        \"user\":\""+user+"\",\r\n        \"password\":\""+password+"\"\r\n    },\r\n    \"order\":{\r\n        \"product_code\":\""+sku+"\",\r\n        \"name\":\""+name+"\",\r\n        \"phone\": \""+phone+"\",\r\n        \"email\": \"khangnd@mobifoneplus.com.vn\",\r\n        \"address\":\""+address+"\",\r\n        \"count\": "+count+",\r\n        \"total_price\": "+total_price+",\r\n        \"fee_ship\": "+fee_ship+",\r\n        \"trans_id\": \""+order_item_id+"\",\r\n        \"status_payment\":1\r\n    }\r\n}\r\n";
+        OkHttpClient client = new OkHttpClient().newBuilder()
+                .build();
+        MediaType mediaType = MediaType.parse("application/json");
+        RequestBody body = RequestBody.create(mediaType, data);
+        Request request = new Request.Builder()
+                .url(url_sim)
+                .method("POST", body)
+                .addHeader("api_key", api_key)
+                .addHeader("Content-Type", "application/json")
+                .build();
+        Response response = client.newCall(request).execute();
+        String res = response.body().string();
+        System.out.println(res);
+        JSONObject json = null;
+        try {
+            json = new JSONObject(res);
+            int status = json.getInt("status");
+            Logger.info("lazop","{process.GetOrders} : "+"request(status: "+status+
+                    ",\n data:"+data+"), response: "+res);
+            if(status ==1){
+                WriteOrder.writeOrder(order_number);
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
         }
 
 
@@ -185,7 +248,6 @@ public class GetOrders extends Thread {
             while(true){
                 select();
                 sleep(10000);
-
             }
         } catch (Exception ex3) {
             ex3.printStackTrace();
