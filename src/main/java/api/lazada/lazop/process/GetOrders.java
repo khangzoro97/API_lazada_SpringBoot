@@ -31,7 +31,7 @@ public class GetOrders extends Thread {
     }
     private Date yesterday() {
         final Calendar cal = Calendar.getInstance();
-        cal.add(Calendar.DATE, -100);
+        cal.add(Calendar.DATE, -1);
         return cal.getTime();
     }
     public void select() throws IOException, ApiException, JSONException {
@@ -158,7 +158,7 @@ public class GetOrders extends Thread {
         OkHttpClient client = new OkHttpClient().newBuilder()
                 .build();
         MediaType mediaType = MediaType.parse("application/xml");
-        RequestBody body = RequestBody.create(mediaType, "<mps>\n    <username>lazada</username>\n    <pass>"+password+"</pass>\n    <requestid>"+request_id+"</requestid>\n    <product_code>"+product_code+"</product_code>\n    <product_id>"+id_product+"</product_id>\n    <count>"+count+"</count>\n    <email>khangnd@mobifoneplus.com.vn</email>\n    <send_code_email>1</send_code_email>\n    <isdn>0903967333</isdn>\n    <cus_name>Lazada Test</cus_name>\n    <request_date>"+current+"</request_date>\n    <address>Lazada Test</address>\n    <total_price>"+total_price+"</total_price>\n    <total_charge>"+total_charge+"</total_charge>\n</mps>");
+        RequestBody body = RequestBody.create(mediaType, "<mps>\n    <username>lazada</username>\n    <pass>"+password+"</pass>\n    <requestid>"+request_id+"</requestid>\n    <product_code>"+product_code+"</product_code>\n    <product_id>"+id_product+"</product_id>\n    <count>"+count+"</count>\n    <email>"+email+"</email>\n    <send_code_email>1</send_code_email>\n    <isdn>0903967333</isdn>\n    <cus_name>Lazada Test</cus_name>\n    <request_date>"+current+"</request_date>\n    <address>Lazada Test</address>\n    <total_price>"+total_price+"</total_price>\n    <total_charge>"+total_charge+"</total_charge>\n</mps>");
         Request request = new Request.Builder()
                 .url(url_bhnb)
                 .method("POST", body)
@@ -191,7 +191,7 @@ public class GetOrders extends Thread {
 
         String url_sim= Preference.url_sim;
         String api_key= Preference.api_key;
-        String data = "{\r\n    \"infor\":{\r\n        \"request_id\": \""+request_id+"\",\r\n        \"shop_code\":\""+shop_code+"\",\r\n        \"user\":\""+user+"\",\r\n        \"password\":\""+password+"\"\r\n    },\r\n    \"order\":{\r\n        \"product_code\":\""+sku+"\",\r\n        \"name\":\""+name+"\",\r\n        \"phone\": \""+phone+"\",\r\n        \"email\": \"khangnd@mobifoneplus.com.vn\",\r\n        \"address\":\""+address+"\",\r\n        \"count\": "+count+",\r\n        \"total_price\": "+total_price+",\r\n        \"fee_ship\": "+fee_ship+",\r\n        \"trans_id\": \""+order_item_id+"\",\r\n        \"status_payment\":1\r\n    }\r\n}\r\n";
+        String data = "{\r\n    \"infor\":{\r\n        \"request_id\": \""+request_id+"\",\r\n        \"shop_code\":\""+shop_code+"\",\r\n        \"user\":\""+user+"\",\r\n        \"password\":\""+password+"\"\r\n    },\r\n    \"order\":{\r\n        \"product_code\":\""+sku+"\",\r\n        \"name\":\""+name+"\",\r\n        \"phone\": \""+phone+"\",\r\n        \"email\": \""+email+"\",\r\n        \"address\":\""+address+"\",\r\n        \"count\": "+count+",\r\n        \"total_price\": "+total_price+",\r\n        \"fee_ship\": "+fee_ship+",\r\n        \"trans_id\": \""+order_item_id+"\",\r\n        \"status_payment\":1\r\n    }\r\n}\r\n";
         OkHttpClient client = new OkHttpClient().newBuilder()
                 .build();
         MediaType mediaType = MediaType.parse("application/json");
