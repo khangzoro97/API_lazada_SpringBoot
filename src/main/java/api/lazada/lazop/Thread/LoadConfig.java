@@ -84,6 +84,11 @@ import java.util.Properties;
                     Preference.refreshToken = accessToken;
                 }
 
+                String day_load = properties.getProperty("day_load","-1");
+                synchronized (Preference.day_load) {
+                    Preference.day_load = day_load;
+                }
+
 
 
                 Logger.info("lazop","{Thread.LoadConfig} : Load file config success");

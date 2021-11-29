@@ -14,4 +14,5 @@ public class Preference {
     public static String user="";
     public static String pass="";
     public static String api_key="";
+    public static String day_load = "-1";
 }

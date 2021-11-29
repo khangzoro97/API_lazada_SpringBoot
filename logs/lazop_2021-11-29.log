@@ -1,0 +1,1599 @@
+29/11/2021 09:05:56.237 : INFO: {Thread.LoadConfig} : Load file config success
+29/11/2021 09:05:59.371 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101211e16381515592544817"}), response: api.lazada.lazop.api.LazopResponse@556cfb7f
+29/11/2021 09:06:09.597 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"210110a516381515695621415"}), response: api.lazada.lazop.api.LazopResponse@71800cf3
+29/11/2021 11:36:13.810 : INFO: {Thread.LoadConfig} : Load file config success
+29/11/2021 11:36:16.739 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":2,"countTotal":2,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}},{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":324043388035169,"voucher_seller":0.00,"created_at":"2021-11-28 17:34:58 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":0.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-28 17:35:02 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":22600.00,"payment_method":"MOMO_WALLET","customer_first_name":"D******ồ","shipping_fee_discount_seller":0.00,"shipping_fee":22600.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"L*****n","phone":"84********51","address2":"","city":"Huyện Cần Giuộc","address1":"H*****************************************n","post_code":"","phone2":"","last_name":"","address5":"L***********************************u","address4":"H*************c","first_name":"Hồ Minh Dương"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":324043388035169,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"L*****n","phone":"84********51","address2":"","city":"Huyện Cần Giuộc","address1":"H*****************************************n","post_code":"","phone2":"","last_name":"","address5":"X*********u","address4":"H*************c","first_name":"Hồ Minh Dương"}}]},"code":"0","request_id":"21011db716381605766176419"}), response: api.lazada.lazop.api.LazopResponse@4d7ed629
+29/11/2021 11:36:17.500 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1551265",
+        "shop_code":"LAZADA",
+        "user":"lazada",
+        "password":"fb2145d3315cbdad7ef3d773e2aa071a"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Trường email không được bỏ trống!","status":3}
+
+29/11/2021 11:36:18.141 : INFO: {process.GetOrders} : request(status: 9,
+ data:{
+    "infor":{
+        "request_id": "1390517",
+        "shop_code":"LAZADA",
+        "user":"lazada",
+        "password":"988805f43a54a6b588a3d60fafa90183"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Hồ Minh Dương",
+        "phone": "84********51",
+        "email": "kenzilho@gmail.com",
+        "address":"H*****************************************n,Huyện Cần Giuộc,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "324043388135169",
+        "status_payment":1
+    }
+}
+), response: {"message":"Loi don hang: Đơn hàng đã tồn tại","status":9}
+
+29/11/2021 11:36:28.491 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":2,"countTotal":2,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}},{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":324043388035169,"voucher_seller":0.00,"created_at":"2021-11-28 17:34:58 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":0.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-28 17:35:02 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":22600.00,"payment_method":"MOMO_WALLET","customer_first_name":"D******ồ","shipping_fee_discount_seller":0.00,"shipping_fee":22600.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"L*****n","phone":"84********51","address2":"","city":"Huyện Cần Giuộc","address1":"H*****************************************n","post_code":"","phone2":"","last_name":"","address5":"L***********************************u","address4":"H*************c","first_name":"Hồ Minh Dương"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":324043388035169,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"L*****n","phone":"84********51","address2":"","city":"Huyện Cần Giuộc","address1":"H*****************************************n","post_code":"","phone2":"","last_name":"","address5":"X*********u","address4":"H*************c","first_name":"Hồ Minh Dương"}}]},"code":"0","request_id":"2101192016381605884705908"}), response: api.lazada.lazop.api.LazopResponse@6505a481
+29/11/2021 11:36:28.753 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1562940",
+        "shop_code":"LAZADA",
+        "user":"lazada",
+        "password":"a3eafd006bac8c4fb29a6bf1ac10e68d"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Trường email không được bỏ trống!","status":3}
+
+29/11/2021 11:36:29.032 : INFO: {process.GetOrders} : request(status: 9,
+ data:{
+    "infor":{
+        "request_id": "1219310",
+        "shop_code":"LAZADA",
+        "user":"lazada",
+        "password":"4772ddaed191c964de4110a6a079cbee"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Hồ Minh Dương",
+        "phone": "84********51",
+        "email": "kenzilho@gmail.com",
+        "address":"H*****************************************n,Huyện Cần Giuộc,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "324043388135169",
+        "status_payment":1
+    }
+}
+), response: {"message":"Loi don hang: Đơn hàng đã tồn tại","status":9}
+
+29/11/2021 11:36:39.297 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":2,"countTotal":2,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}},{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":324043388035169,"voucher_seller":0.00,"created_at":"2021-11-28 17:34:58 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":0.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-28 17:35:02 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":22600.00,"payment_method":"MOMO_WALLET","customer_first_name":"D******ồ","shipping_fee_discount_seller":0.00,"shipping_fee":22600.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"L*****n","phone":"84********51","address2":"","city":"Huyện Cần Giuộc","address1":"H*****************************************n","post_code":"","phone2":"","last_name":"","address5":"L***********************************u","address4":"H*************c","first_name":"Hồ Minh Dương"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":324043388035169,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"L*****n","phone":"84********51","address2":"","city":"Huyện Cần Giuộc","address1":"H*****************************************n","post_code":"","phone2":"","last_name":"","address5":"X*********u","address4":"H*************c","first_name":"Hồ Minh Dương"}}]},"code":"0","request_id":"21011db716381605993018249"}), response: api.lazada.lazop.api.LazopResponse@269d9b28
+29/11/2021 11:36:39.609 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1914970",
+        "shop_code":"LAZADA",
+        "user":"lazada",
+        "password":"00c9f8ca2da8cad6cc79bd79d90f2786"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Trường email không được bỏ trống!","status":3}
+
+29/11/2021 11:36:39.878 : INFO: {process.GetOrders} : request(status: 9,
+ data:{
+    "infor":{
+        "request_id": "1108048",
+        "shop_code":"LAZADA",
+        "user":"lazada",
+        "password":"cf5a32108104b13aa8b7de059f31dc62"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Hồ Minh Dương",
+        "phone": "84********51",
+        "email": "kenzilho@gmail.com",
+        "address":"H*****************************************n,Huyện Cần Giuộc,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "324043388135169",
+        "status_payment":1
+    }
+}
+), response: {"message":"Loi don hang: Đơn hàng đã tồn tại","status":9}
+
+29/11/2021 11:36:50.165 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":2,"countTotal":2,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}},{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":324043388035169,"voucher_seller":0.00,"created_at":"2021-11-28 17:34:58 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":0.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-28 17:35:02 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":22600.00,"payment_method":"MOMO_WALLET","customer_first_name":"D******ồ","shipping_fee_discount_seller":0.00,"shipping_fee":22600.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"L*****n","phone":"84********51","address2":"","city":"Huyện Cần Giuộc","address1":"H*****************************************n","post_code":"","phone2":"","last_name":"","address5":"L***********************************u","address4":"H*************c","first_name":"Hồ Minh Dương"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":324043388035169,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"L*****n","phone":"84********51","address2":"","city":"Huyện Cần Giuộc","address1":"H*****************************************n","post_code":"","phone2":"","last_name":"","address5":"X*********u","address4":"H*************c","first_name":"Hồ Minh Dương"}}]},"code":"0","request_id":"21011db716381606101521032"}), response: api.lazada.lazop.api.LazopResponse@150ed7c9
+29/11/2021 11:36:50.506 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1133462",
+        "shop_code":"LAZADA",
+        "user":"lazada",
+        "password":"be88872b48f7174b52c34192ce519532"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Trường email không được bỏ trống!","status":3}
+
+29/11/2021 11:36:50.777 : INFO: {process.GetOrders} : request(status: 9,
+ data:{
+    "infor":{
+        "request_id": "1501047",
+        "shop_code":"LAZADA",
+        "user":"lazada",
+        "password":"fe0e1749ff9cbbc8fce3d319ba13150f"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Hồ Minh Dương",
+        "phone": "84********51",
+        "email": "kenzilho@gmail.com",
+        "address":"H*****************************************n,Huyện Cần Giuộc,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "324043388135169",
+        "status_payment":1
+    }
+}
+), response: {"message":"Loi don hang: Đơn hàng đã tồn tại","status":9}
+
+29/11/2021 11:37:01.131 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":2,"countTotal":2,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}},{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":324043388035169,"voucher_seller":0.00,"created_at":"2021-11-28 17:34:58 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":0.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-28 17:35:02 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":22600.00,"payment_method":"MOMO_WALLET","customer_first_name":"D******ồ","shipping_fee_discount_seller":0.00,"shipping_fee":22600.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"L*****n","phone":"84********51","address2":"","city":"Huyện Cần Giuộc","address1":"H*****************************************n","post_code":"","phone2":"","last_name":"","address5":"L***********************************u","address4":"H*************c","first_name":"Hồ Minh Dương"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":324043388035169,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"L*****n","phone":"84********51","address2":"","city":"Huyện Cần Giuộc","address1":"H*****************************************n","post_code":"","phone2":"","last_name":"","address5":"X*********u","address4":"H*************c","first_name":"Hồ Minh Dương"}}]},"code":"0","request_id":"2101012116381606211093112"}), response: api.lazada.lazop.api.LazopResponse@3469d275
+29/11/2021 11:37:01.394 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1511612",
+        "shop_code":"LAZADA",
+        "user":"lazada",
+        "password":"2669de7b25973950a2fc622294b37f0b"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Trường email không được bỏ trống!","status":3}
+
+29/11/2021 11:37:01.649 : INFO: {process.GetOrders} : request(status: 9,
+ data:{
+    "infor":{
+        "request_id": "1508038",
+        "shop_code":"LAZADA",
+        "user":"lazada",
+        "password":"a3bbfb5f6ef1a4e0b24f26e557a1de89"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Hồ Minh Dương",
+        "phone": "84********51",
+        "email": "kenzilho@gmail.com",
+        "address":"H*****************************************n,Huyện Cần Giuộc,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "324043388135169",
+        "status_payment":1
+    }
+}
+), response: {"message":"Loi don hang: Đơn hàng đã tồn tại","status":9}
+
+29/11/2021 14:41:15.817 : INFO: {Thread.LoadConfig} : Load file config success
+29/11/2021 14:41:18.194 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101211e16381716782397934"}), response: api.lazada.lazop.api.LazopResponse@59ba211b
+29/11/2021 14:41:18.723 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "140492",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"c53f1b9a7e6f3a04065e5ecf5a10e237"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Trường email không được bỏ trống!","status":3}
+
+29/11/2021 14:41:29.040 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21011db716381716891347545"}), response: api.lazada.lazop.api.LazopResponse@7cea5093
+29/11/2021 14:41:29.327 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1737227",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"ec1c9ef96d55d5c5681b2be0f2a98e45"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Trường email không được bỏ trống!","status":3}
+
+29/11/2021 14:41:39.584 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101192016381716996956835"}), response: api.lazada.lazop.api.LazopResponse@60df51c6
+29/11/2021 14:41:39.891 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1384101",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"12a8628b88f58cfd69988155e5d461e8"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Trường email không được bỏ trống!","status":3}
+
+29/11/2021 14:47:07.909 : INFO: {Thread.LoadConfig} : Load file config success
+29/11/2021 14:47:10.574 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101745416381720306493394"}), response: api.lazada.lazop.api.LazopResponse@27a7cd62
+29/11/2021 14:47:11.308 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1989879",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"cf1abd4ec5f92c25529f74db90cd3a42"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Trường email không được bỏ trống!","status":3}
+
+29/11/2021 14:47:21.687 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21010ec116381720417456246"}), response: api.lazada.lazop.api.LazopResponse@1c6fb728
+29/11/2021 14:47:21.978 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1892836",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"979303a42906f1039371cf06f293efc2"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Trường email không được bỏ trống!","status":3}
+
+29/11/2021 14:49:23.062 : INFO: {Thread.LoadConfig} : Load file config success
+29/11/2021 14:49:24.906 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"210110a516381721649977682"}), response: api.lazada.lazop.api.LazopResponse@708e3e98
+29/11/2021 14:49:25.433 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1207112",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"a32b8dd9f4a90c26fb3b8ce98d5e7aec"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:49:35.691 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101745416381721757997177"}), response: api.lazada.lazop.api.LazopResponse@dcf9517
+29/11/2021 14:49:35.968 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1825331",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"0b3e7957ddd9a407e7606e7967a4c267"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:49:46.241 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101012116381721863496038"}), response: api.lazada.lazop.api.LazopResponse@517d4d93
+29/11/2021 14:49:46.523 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1877380",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"12281781191df26795067e7f0367e19f"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:49:56.827 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101211e16381721969201186"}), response: api.lazada.lazop.api.LazopResponse@1f0f14f6
+29/11/2021 14:49:57.095 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1563709",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"598e063e162050346111137c2abaacac"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:50:07.395 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21010ec116381722075043863"}), response: api.lazada.lazop.api.LazopResponse@17070910
+29/11/2021 14:50:07.712 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1611210",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"25b41d8e0c49fc0f26d382f7abb1d46d"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:50:18.005 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"210110a516381722181053997"}), response: api.lazada.lazop.api.LazopResponse@28c2ae5a
+29/11/2021 14:50:18.330 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1782529",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"02b95e39c7a1893049745a9fdef6f79d"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:50:28.713 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101192016381722288091050"}), response: api.lazada.lazop.api.LazopResponse@21a34d63
+29/11/2021 14:50:28.979 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1831282",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"9e4d8175f764c9ab9bc2668e8ab3bc1c"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:50:39.723 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21011db716381722397643311"}), response: api.lazada.lazop.api.LazopResponse@2a0be8a7
+29/11/2021 14:50:40.183 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1892667",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"f14855927735dc4d2975e408979205ab"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:50:50.432 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101012116381722505472849"}), response: api.lazada.lazop.api.LazopResponse@26a79a2a
+29/11/2021 14:50:50.687 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1448498",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"90522c5d1d7e918ecbd66c2081e1777a"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:51:00.946 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101012116381722610573714"}), response: api.lazada.lazop.api.LazopResponse@690f51b0
+29/11/2021 14:51:01.227 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1745437",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"dcb938eb68931f71b4d924924f53915f"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:51:11.531 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101012116381722716124666"}), response: api.lazada.lazop.api.LazopResponse@19b8a09c
+29/11/2021 14:51:11.991 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1263670",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"36f9319bcdb96a570f5e40b5d98a4de3"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:51:23.274 : INFO: {Thread.LoadConfig} : Load file config success
+29/11/2021 14:51:24.992 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101192016381722850945501"}), response: api.lazada.lazop.api.LazopResponse@22f21be7
+29/11/2021 14:51:25.579 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1214984",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"ba08e584844e1645dc648057b7a0fdd7"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:51:35.865 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101192016381722959826345"}), response: api.lazada.lazop.api.LazopResponse@38332021
+29/11/2021 14:51:36.151 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1343910",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"bb0e0ad8a19a43e20a6fe53800ca28a5"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:51:46.404 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101192016381723065237070"}), response: api.lazada.lazop.api.LazopResponse@74b27998
+29/11/2021 14:51:46.682 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1939090",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"e84aa7f8c94d00edd6c19814115d4580"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:51:57.004 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"210110a516381723171103643"}), response: api.lazada.lazop.api.LazopResponse@12c7f737
+29/11/2021 14:51:57.277 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1931390",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"625e1e1d707a97e025e4abeb69121181"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:52:07.629 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101192016381723277228861"}), response: api.lazada.lazop.api.LazopResponse@6582e69
+29/11/2021 14:52:07.922 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1955530",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"ba5caa6dc178bfe6cb3370177ff2eb61"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:52:18.205 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101211e16381723383144412"}), response: api.lazada.lazop.api.LazopResponse@7725e8b3
+29/11/2021 14:52:18.548 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1224366",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"12417ad132c73eb3a5af33a48fccff09"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:52:28.901 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101211e16381723490105242"}), response: api.lazada.lazop.api.LazopResponse@efb07ca
+29/11/2021 14:52:29.190 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1758468",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"38a1f7f7581803028462b0dcfd036ecf"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:52:39.517 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21010ec116381723596117681"}), response: api.lazada.lazop.api.LazopResponse@7811f0df
+29/11/2021 14:52:39.867 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1945988",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"f37d23f90e2e027083f424691f8a2237"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:52:50.149 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101012116381723702514325"}), response: api.lazada.lazop.api.LazopResponse@854ba70
+29/11/2021 14:52:50.749 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "131508",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"7f4ad061b96b4b9cd093db42be90261e"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:53:01.022 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101012116381723811375110"}), response: api.lazada.lazop.api.LazopResponse@3ab17bc
+29/11/2021 14:53:01.339 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1322467",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"d7b8bbde8ae2cdafb1444fc7304606a1"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:53:11.641 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21011db716381723917367187"}), response: api.lazada.lazop.api.LazopResponse@638cf6a
+29/11/2021 14:53:12.004 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1108967",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"45f8b2dbe32595f55d1820f6f23c8c3a"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:53:22.281 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101211e16381724023921179"}), response: api.lazada.lazop.api.LazopResponse@84d7e86
+29/11/2021 14:53:22.543 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1620651",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"da473f4e1a919efa2568ed8527618f8b"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:53:32.882 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101012116381724129987583"}), response: api.lazada.lazop.api.LazopResponse@1fd81194
+29/11/2021 14:53:33.175 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1696243",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"0aad7ed82e85c0f6a15da01c6a124398"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:53:43.491 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21010ec116381724235944428"}), response: api.lazada.lazop.api.LazopResponse@5bcadede
+29/11/2021 14:53:43.784 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1557017",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"fa7718e7ebe96999b2ec55bc5456e605"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:53:54.103 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21010ec116381724342085195"}), response: api.lazada.lazop.api.LazopResponse@6c3f0eb6
+29/11/2021 14:53:54.372 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1135500",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"47b9cefe893a888f06183eef24f9759d"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:54:04.624 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101012116381724447421914"}), response: api.lazada.lazop.api.LazopResponse@79c2b23b
+29/11/2021 14:54:04.980 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1970334",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"898e38adeebba1a03c80403b5b9ea1d1"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:54:15.332 : INFO: {Thread.LoadConfig} : Load file config success
+29/11/2021 14:54:17.025 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21010ec116381724571267123"}), response: api.lazada.lazop.api.LazopResponse@2ef29b2d
+29/11/2021 14:54:17.576 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "18329",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"cfc6c03e3aeaebed7b6020561e881eef"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:54:27.830 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21010ec116381724679507908"}), response: api.lazada.lazop.api.LazopResponse@4885b3e0
+29/11/2021 14:54:28.116 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1638491",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"fadd85177898d4c6c77a996ad079dd33"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:54:38.362 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21010ec116381724784788692"}), response: api.lazada.lazop.api.LazopResponse@7878e8a0
+29/11/2021 14:54:38.636 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1701323",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"f77641d5424425ec422ad20da49f0a6f"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:54:53.293 : INFO: {Thread.LoadConfig} : Load file config success
+29/11/2021 14:54:54.967 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101745416381724950637649"}), response: api.lazada.lazop.api.LazopResponse@2746ff39
+29/11/2021 14:54:55.508 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1794103",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"138d8a00544673001b3eb2c59ad7c427"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:55:05.777 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101192016381725058896331"}), response: api.lazada.lazop.api.LazopResponse@3e35afef
+29/11/2021 14:55:06.095 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1324592",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"579e03fd58a90573a883735b2a2b8083"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:55:16.341 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"210110a516381725164603056"}), response: api.lazada.lazop.api.LazopResponse@624f09b9
+29/11/2021 14:55:16.605 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1791007",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"368720c4201c38d972e37c7883b4c180"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:55:26.871 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21011db716381725269731679"}), response: api.lazada.lazop.api.LazopResponse@17312858
+29/11/2021 14:55:27.134 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "173715",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"bc9532d5499a58bdf877086b07946ae2"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:55:37.388 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101211e16381725375103690"}), response: api.lazada.lazop.api.LazopResponse@5fd18e9b
+29/11/2021 14:55:37.646 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1718408",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"0d4bd524ccf4ea223e92e24fb9b15d49"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:55:47.996 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101192016381725480961813"}), response: api.lazada.lazop.api.LazopResponse@2edab5ff
+29/11/2021 14:55:48.273 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1774425",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"6c1609fb941f8ca29327b033c2a3c217"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:55:58.649 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101745416381725587474780"}), response: api.lazada.lazop.api.LazopResponse@49944c8f
+29/11/2021 14:55:58.986 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "140400",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"30e57cbdc533ba1e28731af3d3ab3f9d"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:56:09.266 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21011db716381725693784939"}), response: api.lazada.lazop.api.LazopResponse@3a7a7885
+29/11/2021 14:56:09.536 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1457231",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"c1173e04dc00375255fa3a45dd233a01"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:56:19.782 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21010ec116381725798938539"}), response: api.lazada.lazop.api.LazopResponse@326e1f6a
+29/11/2021 14:56:20.080 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1985693",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"0350245e13c569f340292c295d557e5f"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:56:30.481 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101211e16381725905767775"}), response: api.lazada.lazop.api.LazopResponse@703acc32
+29/11/2021 14:56:30.812 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1760961",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"4d7a6495f55153150f1974423e86fab2"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:56:41.128 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101192016381726012435822"}), response: api.lazada.lazop.api.LazopResponse@854ba70
+29/11/2021 14:56:41.395 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1419174",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"1f1a0ca97e950a97f2ce8e546da4373a"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:56:51.774 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101012116381726118006907"}), response: api.lazada.lazop.api.LazopResponse@3ab17bc
+29/11/2021 14:56:52.060 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1367982",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"dfc2acd46cbd7257f74edaae7d39bd38"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:57:02.351 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101745416381726224361584"}), response: api.lazada.lazop.api.LazopResponse@638cf6a
+29/11/2021 14:57:02.617 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "149450",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"7348f779893d310e9e620b4862fb41c9"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:57:12.868 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101745416381726329842439"}), response: api.lazada.lazop.api.LazopResponse@84d7e86
+29/11/2021 14:57:13.177 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1407163",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"936944186065e3142366b8bc51e257c9"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:57:23.508 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21011db716381726436122554"}), response: api.lazada.lazop.api.LazopResponse@14e61618
+29/11/2021 14:57:23.782 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1668820",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"94d08fd93459d9dcb56fcc143de11ce2"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:57:34.154 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21011db716381726542623419"}), response: api.lazada.lazop.api.LazopResponse@24c73cf5
+29/11/2021 14:57:34.423 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "197384",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"50c3bf1010dfa9f7342eca286f4beaba"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:57:44.690 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21011db716381726648124261"}), response: api.lazada.lazop.api.LazopResponse@1eb797bc
+29/11/2021 14:57:44.978 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1696486",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"cdfff5f1e381ef8efdc1509ad4f6c099"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:57:55.245 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"210110a516381726753627342"}), response: api.lazada.lazop.api.LazopResponse@79c2b23b
+29/11/2021 14:57:55.509 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1521302",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"1032c4678b2267473ad5dfe09e7af793"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:58:05.813 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101012116381726859124764"}), response: api.lazada.lazop.api.LazopResponse@6f45f8ab
+29/11/2021 14:58:06.132 : INFO: {process.GetOrders} : request(status: 3,
+ data:{
+    "infor":{
+        "request_id": "1185569",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"d1d037b96a6cc132431d7521b195249b"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"data":"","message":"Loi xac thuc: api_key khong dung","status":3}
+
+29/11/2021 14:58:18.444 : INFO: {Thread.LoadConfig} : Load file config success
+29/11/2021 14:58:20.129 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101211e16381727002358483"}), response: api.lazada.lazop.api.LazopResponse@5c495e1a
+29/11/2021 14:58:21.118 : INFO: {process.GetOrders} : request(status: 1,
+ data:{
+    "infor":{
+        "request_id": "1858082",
+        "shop_code":"TEST",
+        "user":"test",
+        "password":"37732ad0a3ddf333d167aa7583cda560"
+    },
+    "order":{
+        "product_code":"c050_6M",
+        "name":"Vân",
+        "phone": "84********99",
+        "email": "khangnd@mobifoneplus.com.vn",
+        "address":"6***********u,Quận Hai Bà Trưng,Vietnam",
+        "count": 1,
+        "total_price": 394680,
+        "fee_ship": 0,
+        "trans_id": "322533426821134",
+        "status_payment":1
+    }
+}
+), response: {"message":"Success","status":1}
+
+29/11/2021 14:58:31.387 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101192016381727115076779"}), response: api.lazada.lazop.api.LazopResponse@544b9ab3
+29/11/2021 14:58:41.660 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101012116381727217748038"}), response: api.lazada.lazop.api.LazopResponse@68f2f8ec
+29/11/2021 14:58:52.006 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21011db716381727321122184"}), response: api.lazada.lazop.api.LazopResponse@3ac0df6f
+29/11/2021 14:59:02.312 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101211e16381727424084474"}), response: api.lazada.lazop.api.LazopResponse@13644671
+29/11/2021 14:59:12.674 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21010ec116381727527557324"}), response: api.lazada.lazop.api.LazopResponse@29f44cf
+29/11/2021 14:59:22.960 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21010ec116381727630798251"}), response: api.lazada.lazop.api.LazopResponse@7c75f2e9
+29/11/2021 14:59:33.250 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101745416381727733617015"}), response: api.lazada.lazop.api.LazopResponse@33224bc0
+29/11/2021 14:59:43.554 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101211e16381727836588702"}), response: api.lazada.lazop.api.LazopResponse@6a5d8959
+29/11/2021 14:59:53.922 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101012116381727940257240"}), response: api.lazada.lazop.api.LazopResponse@385d03a
+29/11/2021 15:00:04.224 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21010ec116381728043344257"}), response: api.lazada.lazop.api.LazopResponse@59cdc2fa
+29/11/2021 15:00:14.507 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101745416381728146223494"}), response: api.lazada.lazop.api.LazopResponse@2d55566e
+29/11/2021 15:00:24.759 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"21011db716381728248753951"}), response: api.lazada.lazop.api.LazopResponse@2518e51
+29/11/2021 15:00:35.033 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":1,"countTotal":1,"orders":[{"voucher_platform":0.00,"voucher":0.00,"warehouse_code":"dropshipping","order_number":322533426721134,"voucher_seller":0.00,"created_at":"2021-11-26 23:54:57 +0700","voucher_code":"","gift_option":false,"shipping_fee_discount_platform":17600.00,"customer_last_name":"","promised_shipping_times":"","updated_at":"2021-11-26 23:54:59 +0700","price":"394680.00","national_registration_number":"","shipping_fee_original":17600.00,"payment_method":"COD","customer_first_name":"V**n","shipping_fee_discount_seller":0.00,"shipping_fee":0.00,"branch_number":"","tax_code":"","items_count":1,"delivery_info":"","statuses":["pending"],"address_billing":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"H********************************************ổ","address4":"Q***************g","first_name":"Vân"},"extra_attributes":"{\"TaxInvoiceRequested\":false}","order_id":322533426721134,"remarks":"","gift_message":"","address_shipping":{"country":"Vietnam","address3":"H****i","phone":"84********99","address2":"","city":"Quận Hai Bà Trưng","address1":"6***********u","post_code":"","phone2":"","last_name":"","address5":"P*****************ổ","address4":"Q***************g","first_name":"Vân"}}]},"code":"0","request_id":"2101211e16381728351546217"}), response: api.lazada.lazop.api.LazopResponse@7d0ea3b4
+29/11/2021 15:49:44.327 : INFO: {Thread.LoadConfig} : Load file config success
+29/11/2021 15:49:46.230 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101211e16381757863864571"}), response: api.lazada.lazop.api.LazopResponse@6ef5f870
+29/11/2021 15:49:56.519 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101745416381757966685021"}), response: api.lazada.lazop.api.LazopResponse@331137e
+29/11/2021 15:50:06.790 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101192016381758069563852"}), response: api.lazada.lazop.api.LazopResponse@4049e131
+29/11/2021 15:50:17.094 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101745416381758172427316"}), response: api.lazada.lazop.api.LazopResponse@74cc0663
+29/11/2021 15:50:27.330 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"21010ec116381758275042729"}), response: api.lazada.lazop.api.LazopResponse@788b41a4
+29/11/2021 15:50:37.568 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"21010ec116381758377393961"}), response: api.lazada.lazop.api.LazopResponse@7d4000ca
+29/11/2021 15:50:47.884 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101012116381758480581105"}), response: api.lazada.lazop.api.LazopResponse@5c1b435c
+29/11/2021 15:50:58.174 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"21011db716381758583143518"}), response: api.lazada.lazop.api.LazopResponse@5221c4ab
+29/11/2021 15:51:08.447 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"21011db716381758686104893"}), response: api.lazada.lazop.api.LazopResponse@219099dc
+29/11/2021 15:51:18.671 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101192016381758788464742"}), response: api.lazada.lazop.api.LazopResponse@28286048
+29/11/2021 15:51:28.899 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"21010ec116381758890722177"}), response: api.lazada.lazop.api.LazopResponse@30e507bd
+29/11/2021 15:51:39.404 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101211e16381758995611531"}), response: api.lazada.lazop.api.LazopResponse@357f6235
+29/11/2021 15:51:49.705 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"21011db716381759098801260"}), response: api.lazada.lazop.api.LazopResponse@200dce8b
+29/11/2021 15:52:00.005 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"210110a516381759201544400"}), response: api.lazada.lazop.api.LazopResponse@18bb40e2
+29/11/2021 15:52:10.225 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101745416381759303983880"}), response: api.lazada.lazop.api.LazopResponse@2f8fdb37
+29/11/2021 15:52:20.586 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101745416381759407364891"}), response: api.lazada.lazop.api.LazopResponse@7197d4fa
+29/11/2021 15:52:30.833 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101192016381759510033711"}), response: api.lazada.lazop.api.LazopResponse@57f7dc8c
+29/11/2021 15:52:41.085 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101211e16381759612377278"}), response: api.lazada.lazop.api.LazopResponse@4dae8820
+29/11/2021 15:52:51.417 : ERRROR: {process.GetOrders} : request(data:{"data":{"count":0,"countTotal":0,"orders":[]},"code":"0","request_id":"2101012116381759715905923"}), response: api.lazada.lazop.api.LazopResponse@14709736
